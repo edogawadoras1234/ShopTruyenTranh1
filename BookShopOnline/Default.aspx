@@ -1,16 +1,17 @@
 ﻿<%@ Page Title="Trang Chủ - Bán Sach" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BookShopOnline._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
+    <link href="Content/Decoration.css" rel="stylesheet" />
+    <body style="background-image:url(../Images/backg.png)"> 
     <div class="jumbotron">
         <h1>&nbsp;</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <h1 class="lead">Chào mừng bạn đến với shop truyện tranh lớn nhất <br />Việt Nam</h1>
+        <h3> Một vài bộ truyện được yêu thích: </h3>
     </div>
 
     <div class="row">
         <div class="col-md-4">
-            <h3>Thám tử lừng danh Conan</h3>
+            <h3><img class="anh1" src="Images/ConanIcon.jpg" /> Thám tử lừng danh Conan </h3>
             Kudo Shinichi là một thám tử trung học rất nổi tiếng, 
             thường xuyên giúp cảnh sát phá giải các vụ án khó khăn. 
             Trong một lần khi đang theo dõi 1 vụ tống tiền, cậu bị đồng bọn (thành viên của Tổ chức Áo đen) phát hiện.         
@@ -18,9 +19,12 @@
              không giết chết cậu mà khiến cậu teo nhỏ thành một đứa trẻ.[3] Sau đó, cậu tự xưng Edogawa Conan sống tại nhà thám tử Mori Kogoro.
              Xuyên suốt xê-ri cậu âm thầm hỗ trợ ông Mori phá các vụ án. Đồng thời cậu cũng phải đi học lại tiểu học, kết thân với nhiều người và lập ra Đội thám tử nhí.
             <a href="https://vi.wikipedia.org/wiki/Th%C3%A1m_t%E1%BB%AD_l%E1%BB%ABng_danh_Conan">Đọc thêm…</a>
+             
+           
         </div>
         <div class="col-md-4">
-            <h3>7 viên ngọc rồng</h3>
+            <h3> <img class="anh2" src="Images/Pic2.JPG" /> 7 viên ngọc rồng </h3>
+            
             Một cậu bé có đuôi khỉ được tìm thấy bởi một ông lão sống một mình trong rừng,
              ông đặt tên là Son Goku và xem đứa bé như là cháu của mình. Một ngày nọ Goku tình cờ gặp một cô gái tên là Bulma trên đường đi bắt cá về,
              Goku và Bulma đã cùng nhau truy tìm bảy viên ngọc rồng. Các viên ngọc rồng này chứa đựng một bí mật có thể triệu hồi một con rồng và ban điều ước cho ai sở hữu chúng. 
@@ -34,7 +38,8 @@
             <a href="https://vi.wikipedia.org/wiki/Dragon_Ball_-_7_vi%C3%AAn_ng%E1%BB%8Dc_r%E1%BB%93ng">Đọc thêm…</a>
         </div>
         <div class="col-md-4">
-           <h3>Saitama</h3>
+           <h3> <img class="anh3" src="Images/Pic3.JPG" /> Saitama</h3>
+            
             Câu chuyện diễn ra tại thành phố Z, Nhật Bản. Thế giới đầy quái vật bí ẩn xuất hiện và gây ra nhiều thảm họa. 
             Nhân vật chính Saitama (Onepunch Man), một siêu anh hùng dễ dàng đánh bại các quái vật hay những nhân vật phản diện khác chỉ với một cú đấm.
             Tuy nhiên, sau khi trở thành quá mạnh, Saitama đã trở nên nhàm chán trong những trận chiến của mình và luôn cố gắng để tìm đối thủ mạnh hơn để chiến đấu.
@@ -45,5 +50,5 @@
             <a href="https://vi.wikipedia.org/wiki/One-Punch_Man">Đọc thêm…</a>
         </div>
     </div>
-
+        </body>
 </asp:Content>

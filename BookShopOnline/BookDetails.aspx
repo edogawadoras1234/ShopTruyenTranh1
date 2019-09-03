@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="Chi Tiết" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="BookDetails.aspx.cs" Inherits="BookShopOnline.BookDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <link href="Content/Decoration.css" rel="stylesheet" />
     <asp:FormView ID="bookDetail" runat="server"
 ItemType="BookShopOnline.Models.Book" SelectMethod ="GetDetails"
  RenderOuterTable="false">
@@ -16,12 +17,12 @@ ItemType="BookShopOnline.Models.Book" SelectMethod ="GetDetails"
  </td>
  <td>&nbsp;</td>
  <td style="vertical-align: top; text-align:left;">
- <b>Description:</b><br /><%#:Item.MoTa %>
+ <b>Mô tả sách:</b><br /><%#:Item.MoTa %>
  <br />
- <span><b>Price:</b>&nbsp;<%#: String.Format("{0:c}",Item.GiaSach)
+ <span><b>Giá:</b>&nbsp;<%#: String.Format("{0:c}",Item.GiaSach)
 %></span>
  <br />
- <span><b>Book Number:</b>&nbsp;<%#:Item.MaSach %></span>
+ <span><b>Mã sách:</b>&nbsp;<%#:Item.MaSach %></span>
  <br />
  </td>
  </tr>

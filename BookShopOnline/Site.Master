@@ -46,9 +46,7 @@
              </a><br />
             </div>
             <div id="CategoryMenu" style="text-align: center">
-             <asp:ListView ID="categoryList"
-            ItemType="BookShopOnline.Models.Category" runat="server"
-            SelectMethod="GetCategories" >
+             <asp:ListView ID="categoryList" ItemType="BookShopOnline.Models.Category" runat="server" SelectMethod="GetCategories" >
              <ItemTemplate>
              <b style="font-size: large; font-style: normal">
              <a href="/BookList.aspx?id=<%#: Item.MaTL %>">
@@ -71,10 +69,10 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                        <li><a runat="server" href="~/BookList">Books</a></li>
+                        <li><a runat="server" href="~/">Trang chủ</a></li>
+                        <li><a runat="server" href="~/About">Tìm hiểu về</a></li>
+                        <li><a runat="server" href="~/Contact">Liên hệ</a></li>
+                        <li><a runat="server" href="~/BookList">Sách</a></li>
                     </ul>
                 </div>
             </div>
