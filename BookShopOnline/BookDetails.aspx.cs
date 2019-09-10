@@ -29,5 +29,9 @@ namespace BookShopOnline
             }
             return query;
         }
+        public void Muasach(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

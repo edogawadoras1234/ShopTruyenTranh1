@@ -1,20 +1,17 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BookShopOnline.SiteMaster" %>
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - Book Shop Online</title>
-
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link href="Content/Decoration.css" rel="stylesheet" />
 </head>
 <body>
     <form runat="server">
@@ -45,11 +42,11 @@
              <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Logo.jpg" BorderStyle ="None" height="50px"/>
              </a><br />
             </div>
-            <div id="CategoryMenu" style="text-align: center">
+            <div id="CategoryMenu" style="text-align:center;font-size:30px;">
              <asp:ListView ID="categoryList" ItemType="BookShopOnline.Models.Category" runat="server" SelectMethod="GetCategories" >
              <ItemTemplate>
              <b style="font-size: large; font-style: normal">
-             <a href="/BookList.aspx?id=<%#: Item.MaTL %>">
+             <a href="/danhsach.aspx?id=<%#: Item.MaTL %>">
              <%#: Item.TenTL %>
              </a>
              </b>
@@ -70,9 +67,10 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Trang chủ</a></li>
-                        <li><a runat="server" href="~/About">Tìm hiểu về</a></li>
-                        <li><a runat="server" href="~/Contact">Liên hệ</a></li>
-                        <li><a runat="server" href="~/BookList">Sách</a></li>
+                        <li><a runat="server" href="~/dangnhap.aspx">Đăng nhập</a></li>
+                        <li><a runat="server" href="~/dangki.aspx">Đăng kí</a></li>
+                        <li><a runat="server" href="~/Lienhe.aspx">Liên hệ</a></li>
+                        <li><a runat="server" href="~/danhsach">Sách</a></li>
                     </ul>
                 </div>
             </div>
