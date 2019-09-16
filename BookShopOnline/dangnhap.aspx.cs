@@ -23,7 +23,7 @@ namespace BookShopOnline
             da.Fill(tb);
             if (tb.Rows.Count > 0)
             {
-                thongbao.Text = "Đăng nhập thành công";
+                thongbao.Text = "Đăng nhập thành công";               
             }
             else thongbao.Text = "Sai Tài Khoản/Mật Khẩu";
         }

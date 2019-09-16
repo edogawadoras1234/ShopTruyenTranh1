@@ -72,6 +72,8 @@
                         <li><a runat="server" href="~/Lienhe.aspx">Liên hệ</a></li>
                         <li><a runat="server" href="~/danhsach">Sách</a></li>
                          <li><a runat="server" href="~/ShoppingCart" ID="cartCount">&nbsp;</a></li>
+                        <li><asp:Label ID="hienthiten" runat="server" Text=""></asp:Label></li>
+                        
                     </ul>
                 </div>
             </div>
@@ -81,7 +83,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - BookShopOnline</p>
+                <p>&copy; <%: DateTime.Now.Year %> - ShopTruyenTranh</p>
             </footer>
         </div>
 

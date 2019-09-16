@@ -1,6 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ShoppingCart.aspx.cs" Inherits="BookShopOnline.ShoppingCart" %>
+﻿<%@ Page Title="Giỏ sách" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ShoppingCart.aspx.cs" Inherits="BookShopOnline.ShoppingCart" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <body style="margin-top:100px;">
+    <body style="margin-top:100px;background-image:url(../Images/backg.png)">
 
         <div id="ShoppingCartTitle" runat="server" class="ContentHead"><h1>Shopping
 Cart</h1></div>
@@ -40,7 +40,10 @@ Convert.ToDouble(Item.Book.GiaSach)))%>
 <br />        <table>
 <tr>
 <td>
-<asp:Button ID="UpdateBtn" runat="server" Text="Update" OnClick="UpdateBtn_Click" />
+<asp:Button ID="UpdateBtn" runat="server" Text="Cập nhật giỏ hàng" OnClick="UpdateBtn_Click" />
+</td>
+    <td>
+<asp:Button ID="Button2" runat="server" Text="Mua Sách" />
 </td>
 </tr>
 </table>
