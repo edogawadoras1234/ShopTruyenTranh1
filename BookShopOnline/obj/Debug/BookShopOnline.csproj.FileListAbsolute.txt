@@ -73,3 +73,32 @@ E:\BaiThi-HaVanTam\BookShopOnline\BookShopOnline\bin\EntityFramework.dll
 E:\BaiThi-HaVanTam\BookShopOnline\BookShopOnline\bin\EntityFramework.SqlServer.dll
 E:\BaiThi-HaVanTam\BookShopOnline\BookShopOnline\bin\EntityFramework.xml
 E:\BaiThi-HaVanTam\BookShopOnline\BookShopOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\BookShopOnline.dll.config
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\BookShopOnline.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\BookShopOnline.pdb
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Antlr3.Runtime.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\EntityFramework.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\EntityFramework.SqlServer.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Newtonsoft.Json.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\System.Web.Optimization.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\WebGrease.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\EntityFramework.xml
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\System.Web.Optimization.xml
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Newtonsoft.Json.xml
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Antlr3.Runtime.pdb
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\obj\Debug\BookShopOnline.csprojAssemblyReference.cache
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\obj\Debug\BookShopOnline.csproj.CoreCompileInputs.cache
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\obj\Debug\BookShopOnline.csproj.CopyComplete
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\obj\Debug\BookShopOnline.dll
+C:\Users\Edogawa Doras\Desktop\WebThuongMai\BookShopOnline\obj\Debug\BookShopOnline.pdb
