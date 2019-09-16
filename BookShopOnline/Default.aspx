@@ -21,7 +21,7 @@ img.anh3 {
     width: 100px;
 }
     </style>
-    <body style="background-image:url(../Images/backg.png)"> 
+    <body style="background-image:url(../Images/backg.png);margin-top:20px"> 
     <div class="jumbotron">
         <h1 style="text-align:center">Chào mừng bạn đến với shop truyện tranh lớn nhất <br />Việt Nam</h1>
     </div>

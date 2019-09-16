@@ -39,6 +39,10 @@ namespace BookShopOnline.Models
                  MaTL= 5,
                  TenTL = "Siêu Nhân"
                  },
+                 new Category{
+                 MaTL= 6,
+                 TenTL = "Thiếu Nhi"
+                 },
                  };
             return categories;
         }
@@ -98,6 +102,49 @@ namespace BookShopOnline.Models
                  HinhAnh="Pic5.jpg",
                  GiaSach = 10000,
                  MaTL = 5
+                 },
+                 new Book
+                 {
+                 MaSach = 6,
+                 TenSach = "Sherlocks Homles",
+                 MoTa = "Sherlocks Holmes là một thám tử tư ở Luân Đôn nổi tiếng nhờ trí thông minh, " +
+                 "khả năng suy diễn logic và quan sát tinh tường trong khi phá những vụ án mà cảnh sát phải bó tay. " +
+                 "Nhiều người cho rằng Sherlock Holmes là nhân vật thám tử hư cấu nổi tiếng nhất trong lịch sử văn học và " +
+                 "là một trong những nhân vật văn học được biết đến nhiều nhất trên toàn thế giới.",
+                 HinhAnh="Pic6.jpg",
+                 GiaSach = 10000,
+                 MaTL = 1
+                 },
+                  new Book
+                 {
+                 MaSach = 7,
+                 TenSach = "Doraemon",
+                 MoTa = "Bộ truyện kể về một chú mèo máy tên là Doraemon đến từ thế kỉ 22 để giúp một cậu bé lớp 5-3 hậu đậu tên là Nobi Nobita. " +
+                 "Các câu chuyện của Doraemon thường ngắn gọn, dễ hiểu, dí dỏm và mang cái nhìn lạc quan về cuộc sống tương lai " +
+                 "cũng như sự phát triển của khoa học - kĩ thuật.",
+                 HinhAnh="Pic7.jpg",
+                 GiaSach = 10000,
+                 MaTL = 6
+                 },
+                   new Book
+                 {
+                 MaSach = 8,
+                 TenSach = "One Piece",
+                 MoTa = "One Piece nói về cuộc hành trình của Monkey D. Luffy - thuyền trưởng của băng hải tặc Mũ Rơm và các đồng đội của cậu. " +
+                 "Luffy tìm kiếm vùng biển bí ẩn nơi cất giữ kho báu lớn nhất thế giới One Piece, với mục đích trở thành Tân Vua Hải Tặc.",
+                 HinhAnh="Pic8.jpg",
+                 GiaSach = 10000,
+                 MaTL = 2
+                 },
+                    new Book
+                 {
+                 MaSach = 9,
+                 TenSach = "Inu Yasha",
+                 MoTa = "Câu chuyện kể về hành trình tìm ngọc Tứ Hồn của nữ học sinh Kagome Higurashi," +
+                 " người có thể trở về thời Chiến Quốc nhờ chiếc giếng cổ thần bí trong nhà cô, và InuYasha, một hanyō (tiếng Nhật nghĩa là 'bán yêu')",
+                 HinhAnh="Pic9.jpg",
+                 GiaSach = 10000,
+                 MaTL = 2
                  },
                  };
             return books;

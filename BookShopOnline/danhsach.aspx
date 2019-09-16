@@ -42,7 +42,13 @@
              <span>
          <b>Giá: </b><%#:String.Format("{0:c}",Item.GiaSach)%>
           </span>
+
              <br />
+              <a href="AddToCart.aspx?bookID=<%#:Item.MaSach%>">
+     <span>
+         <b>Thêm vào giỏ sách<b>
+            </span>
+             </a>        
              </td>
              </tr>
             <tr>
