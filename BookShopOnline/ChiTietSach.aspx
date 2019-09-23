@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Chi Tiết" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="BookDetails.aspx.cs" Inherits="BookShopOnline.BookDetails" %>
+﻿<%@ Page Title="Chi Tiết" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChiTietSach.aspx.cs" Inherits="BookShopOnline.BookDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div style="margin-top:100px">
     <asp:FormView ID="bookDetail" runat="server" ItemType="BookShopOnline.Models.Book" SelectMethod ="GetDetails" RenderOuterTable="false">
@@ -21,9 +21,6 @@
  <br />
  <span><b>Mã sách:</b>&nbsp;<%#:Item.MaSach %></span>
  <br />
-  <span><button>
-          <a href="hoadonmuasach.aspx?bookID=<%#:Item.MaSach%>">Mua sách</a>
-        </button></span>
  <br />
  </td>
  </tr>

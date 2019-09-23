@@ -115,7 +115,7 @@
     <Content Include="dangki.aspx" />
     <Content Include="dangnhap.aspx" />
     <Content Include="App_Data\Shopbanhang.mdf" />
-    <Content Include="BookDetails.aspx" />
+    <Content Include="ChiTietSach.aspx" />
     <Content Include="danhsach.aspx" />
     <Content Include="hoadonmuasach.aspx" />
     <Content Include="Images\backg.png" />
@@ -205,12 +205,12 @@
       <DependentUpon>dangnhap.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="BookDetails.aspx.cs">
-      <DependentUpon>BookDetails.aspx</DependentUpon>
+    <Compile Include="ChiTietSach.aspx.cs">
+      <DependentUpon>ChiTietSach.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="BookDetails.aspx.designer.cs">
-      <DependentUpon>BookDetails.aspx</DependentUpon>
+    <Compile Include="ChiTietSach.aspx.designer.cs">
+      <DependentUpon>ChiTietSach.aspx</DependentUpon>
     </Compile>
     <Compile Include="danhsach.aspx.cs">
       <DependentUpon>danhsach.aspx</DependentUpon>

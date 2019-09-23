@@ -27,7 +27,7 @@
                   <table>
                      <tr>
                      <td>
-                         <a href="BookDetails.aspx?bookID=<%#:Item.MaSach%>">
+                         <a href="ChiTietSach.aspx?bookID=<%#:Item.MaSach%>">
                          <img src ="/Images/<%#:Item.HinhAnh%>" width="150" height="225" style="border:solid" /></a>
                     </td>
                      </tr>
