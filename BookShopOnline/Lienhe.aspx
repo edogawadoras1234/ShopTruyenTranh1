@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Liên hệ" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Lienhe.aspx.cs" Inherits="BookShopOnline.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <body style="background-image:url(../Images/backg.png)"> 
+    <body style="background-image:url(../Images/backg.png);font-size:20px"> 
     <div style="margin-top:200px">
     <h2><%: Title %>.</h2>
     <h3>Nếu có bất kì bộ truyện nào được yêu mến, các bạn có thể liên hệ với </h3>

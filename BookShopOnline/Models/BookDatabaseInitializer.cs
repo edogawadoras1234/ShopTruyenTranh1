@@ -83,7 +83,7 @@ namespace BookShopOnline.Models
                  new Book
                  {
                  MaSach = 4,
-                 TenSach = " Ore no Yome ni Nare Yo",
+                 TenSach = " Ore no Yome",
                  MoTa = "Bộ truyện lãng mạn học đường cùng với Yome và Ore",
                  HinhAnh="Pic4.jpg",
                  GiaSach = 10000,

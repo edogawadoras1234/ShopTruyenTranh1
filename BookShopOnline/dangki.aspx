@@ -1,12 +1,13 @@
 ﻿<%@ Page Title="Đăng kí" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="dangki.aspx.cs" Inherits="BookShopOnline.dangki" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <body style="margin-top:120px;background-image:url(../Images/backg.png)"> 
+    <body style="margin-top:150px;background-image:url(../Images/backg.png);font-size:20px"> 
 
     <h2><%: Title %></h2>
 
         <style type="text/css">
     .auto-style1 {
         width: auto;
+        height:23px;
     }
     .auto-style3 {
         height: 23px;
@@ -70,17 +71,14 @@
     }
     </style>
 
-   <div id="TableWrapper">
+   <div id="TableWrapper" >
 <table class="auto-style1" runat="server" id="FormTable">
-    <tr>
-        <td>&nbsp;</td>
-    </tr>
     <tr>
         <td class="auto-style24">
             <p style="width: 127px">Tên</p>
         </td>
         <td class="auto-style32">
-            <asp:TextBox ID="Name" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" ForeColor="Black" Height="18px"></asp:TextBox>
+            <asp:TextBox ID="Name" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" ForeColor="Black" Height="30px"></asp:TextBox>
         </td>
         <td class="auto-style7">
             <asp:Label ID="ten" runat="server" Text="Nhập&nbsp;tên" CssClass="ErrorMessage" Visible ="False" BorderStyle="None"></asp:Label>

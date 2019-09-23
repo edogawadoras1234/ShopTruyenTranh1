@@ -23,8 +23,7 @@ namespace BookShopOnline
         {
             using (Logic.ShoppingCartActions usersShoppingCart = new Logic.ShoppingCartActions())
             {
-                string cartStr = string.Format("Giỏ ({0})",
-                usersShoppingCart.GetCount());
+                string cartStr = string.Format("Giỏ ({0})", usersShoppingCart.GetCount());
                 cartCount.InnerText = cartStr;
             }
         }

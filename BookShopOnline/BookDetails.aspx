@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Chi Tiết" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="BookDetails.aspx.cs" Inherits="BookShopOnline.BookDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div style="margin-top:100px">
+    <div style="margin-top:100px;font-size:20px">
     <asp:FormView ID="bookDetail" runat="server" ItemType="BookShopOnline.Models.Book" SelectMethod ="GetDetails" RenderOuterTable="false">
  <ItemTemplate >
  <div >

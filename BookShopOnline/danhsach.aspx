@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="Sách" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="danhsach.aspx.cs" Inherits="BookShopOnline.BookList" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <body style="background-image:url(../Images/backg.png)"> 
-      <section style="margin-top:100px">
+    <style>
+
+    </style>
+    <body style="background-image:url(../Images/backg.png);font-size:20px"> 
+      <section style="margin-top:150px">
          <div>
          <hgroup>
          <h2><%: Page.Title %></h2>
@@ -10,7 +13,7 @@
          <EmptyDataTemplate>
              <table >
                  <tr>
-                     <td>No data was returned.</td>
+                     <td>Không có quyển sách nào</td>
                  </tr>
              </table>
          </EmptyDataTemplate>
@@ -24,17 +27,17 @@
          </GroupTemplate>
          <ItemTemplate>
               <td runat="server">
-                  <table>
+                  <table >
                      <tr>
-                     <td>
+                     <td >
                          <a href="BookDetails.aspx?bookID=<%#:Item.MaSach%>">
-                         <img src ="/Images/<%#:Item.HinhAnh%>" width="150" height="225" style="border:solid" /></a>
+                         <img src ="/Images/<%#:Item.HinhAnh%>" width="180" height="225" style="border:solid" /></a>
                     </td>
                      </tr>
              <tr>
-          <td>
+          <td style="background-color:lightcyan; padding-top:10px;">
          <a href="BookDetails.aspx?bookID=<%#:Item.MaSach%>">
-         <span>
+         <span >
          <%#:Item.TenSach%>
              </span>
              </a>
